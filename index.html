@@ -11,20 +11,35 @@
   <body>
     <div class="container">
       <form action="/action_page.php">
-        <div class="vline">
+        <div class="vLine">
           <span class="vLineText">or</span>
         </div>
 
         <div class="buttons">
           <a href="#" class="fb btn">
-            <i class="fa fa-facebook fa-fw"></i> Facebook Login
-          </a>
-          <a href="#" class="twitter btn">
-            <i class="fa fa-twitter fa-fw"></i> Twitter Login
+            <i class="fab fa-facebook-f"></i> Facebook Login
           </a>
           <a href="#" class="google btn">
-            <i class="fa fa-google fa-fw"></i> Google+ Login
+            <i class="fab fa-google-plus-g"></i> Google+ Login
           </a>
+          <a href="#" class="twitter btn">
+            <i class="fab fa-twitter"></i> Twitter Login
+          </a>
+          <div class="column">
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+            <input type="submit" value="Login" />
+          </div>
         </div>
       </form>
     </div>
