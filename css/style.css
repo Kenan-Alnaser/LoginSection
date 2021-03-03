@@ -43,6 +43,15 @@ input,
   border: 2px solid #ddd;
   height: 25vh;
 }
+.vLineText {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 1.1vh 0.7vw;
+}
 input[type="submit"] {
   background-color: #4caf50;
   color: white;
