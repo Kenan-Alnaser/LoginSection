@@ -9,6 +9,7 @@
   background-color: #f2f2f2;
   padding: 2.8vh 0 4.2vh 0;
 }
+/* Manual Login Fields */
 input {
   width: 50%;
   padding: 12px;
@@ -21,6 +22,7 @@ input {
   line-height: 3vh;
   text-decoration: none;
 }
+/* Social Media Login Buttons */
 .btn {
   width: 50%;
   padding: 12px;
@@ -50,6 +52,7 @@ input {
   background-color: #dd4b39;
   color: white;
 }
+/* Vertical Middle Line */
 .vLine {
   position: absolute;
   left: 50%;
@@ -77,6 +80,7 @@ h2 {
   text-align: left;
   margin-left: 5.5vw;
 }
+/* Login Button */
 input[type="submit"] {
   background-color: #4caf50;
   color: white;
@@ -95,6 +99,7 @@ input[type="submit"] {
   padding: 0 6.8vw;
   margin-top: 0.6vh;
 }
+/* Float Clear */
 .row:after {
   content: "";
   display: table;
@@ -110,6 +115,7 @@ input:hover,
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+/* Social Images styling */
 .fab {
   border-right: 2px grey solid;
   padding-top: 0.5vh;
