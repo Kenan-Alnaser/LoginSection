@@ -22,6 +22,9 @@ input,
   line-height: 3vh;
   text-decoration: none;
 }
+.btn {
+  margin: 1.8vh;
+}
 .fb {
   background-color: #3b5998;
   color: white;
@@ -41,7 +44,7 @@ input,
   left: 50%;
   transform: translate(-50%);
   border: 2px solid #ddd;
-  height: 25vh;
+  height: 30vh;
 }
 .vLineText {
   position: absolute;
@@ -51,6 +54,9 @@ input,
   border: 1px solid #ccc;
   border-radius: 50%;
   padding: 1.1vh 0.7vw;
+}
+h2 {
+  text-align: center;
 }
 input[type="submit"] {
   background-color: #4caf50;
@@ -66,8 +72,8 @@ input[type="submit"] {
   float: left;
   width: 50%;
   margin: auto;
-  padding: 0 50px;
-  margin-top: 6px;
+  padding: 0 6.8vw;
+  margin-top: 0.6vh;
 }
 .row:after {
   content: "";
@@ -76,4 +82,11 @@ input[type="submit"] {
 }
 input[type="checkbox"] {
   transform: scale(1.7);
+}
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
