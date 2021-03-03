@@ -24,6 +24,8 @@ input,
 }
 .btn {
   margin: 1.8vh;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 .fb {
   background-color: #3b5998;
@@ -45,6 +47,13 @@ input,
   transform: translate(-50%);
   border: 2px solid #ddd;
   height: 30vh;
+}
+.vLineBottom {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 10vh;
 }
 .vLineText {
   position: absolute;
@@ -89,4 +98,10 @@ input:hover,
 }
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+.fab {
+  border-right: 2px grey solid;
+  padding-top: 0.5vh;
+  padding-right: 1.7vw;
+  padding-bottom: 0.5vh;
 }
