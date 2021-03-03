@@ -102,6 +102,7 @@ input[type="submit"]:hover {
 .fab {
   border-right: 2px grey solid;
   padding-top: 0.5vh;
-  padding-right: 1.7vw;
+  padding-right: 1vw;
   padding-bottom: 0.5vh;
+  margin-right: 0.5vw;
 }
