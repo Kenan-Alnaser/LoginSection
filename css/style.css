@@ -109,7 +109,7 @@ input[type="submit"] {
 }
 input[type="checkbox"] {
   flex-shrink: 3;
-  margin-right: 10rem;
+  margin-right: 4.8rem;
 }
 input:hover,
 .btn:hover {
