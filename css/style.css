@@ -134,12 +134,13 @@ input[type="submit"]:hover {
   border: none;
   border-radius: 4px;
   opacity: 0.85;
-  display: inline-block;
+  display: flex;
   font-size: 5px;
   line-height: 2vh;
   text-decoration: none;
   margin: 1vh;
   margin-left: 15vw;
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-weight: normal;
+  font-size: 1rem;
+  justify-content: flex-end;
 }
