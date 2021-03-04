@@ -4,6 +4,7 @@
   padding: 0;
 }
 .container {
+  display: flex;
   position: relative;
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -11,6 +12,7 @@
 }
 /* Manual Login Fields */
 input {
+  align-content: center;
   width: 50%;
   padding: 12px;
   border: none;
@@ -88,6 +90,7 @@ input[type="submit"] {
   margin-left: 1vw;
 }
 .bottom-container {
+  display: flex;
   text-align: center;
   background-color: #666;
   border-radius: 0px 0px 4px 4px;
