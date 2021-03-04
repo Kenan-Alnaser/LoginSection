@@ -140,7 +140,6 @@ input[type="submit"]:hover {
   text-decoration: none;
   margin: 1vh;
   margin-left: 15vw;
-  font-weight: normal;
   font-size: 1rem;
   justify-content: flex-end;
 }
