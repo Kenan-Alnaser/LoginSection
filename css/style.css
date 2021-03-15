@@ -4,11 +4,17 @@
   padding: 0;
 }
 .container {
-  display: flex;
+  display: grid;
   position: relative;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 2.8vh 0 4.2vh 0;
+  border: 2px red dashed;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 3fr);
+}
+div {
+  border: 2px red dashed;
 }
 /* Manual Login Fields */
 input {
@@ -94,19 +100,6 @@ input[type="submit"] {
   background-color: #666;
   border-radius: 0px 0px 4px 4px;
 }
-.column {
-  float: left;
-  width: 50%;
-  margin: auto;
-  padding: 0 6.8vw;
-  margin-top: 0.6vh;
-}
-/* Float Clear */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 input[type="checkbox"] {
   flex-shrink: 3;
   margin-right: 4.8rem;
@@ -129,7 +122,7 @@ input[type="submit"]:hover {
 #rmbr {
   display: flex;
 }
-.btn2 {
+.btnBottom {
   width: 50%;
   border: none;
   border-radius: 4px;
