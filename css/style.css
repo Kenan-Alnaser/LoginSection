@@ -5,16 +5,22 @@
 }
 .container {
   display: grid;
-  position: relative;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 2.8vh 0 4.2vh 0;
   border: 2px red dashed;
   grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(2, 3fr);
+  grid-template-rows: repeat(1, 2fr);
+  grid-template-areas: "social-buttons user-form";
 }
 div {
   border: 2px red dashed;
+}
+.social-buttons {
+  grid-area: social-buttons;
+}
+.user-form {
+  grid-area: user-form;
 }
 /* Manual Login Fields */
 input {
@@ -95,13 +101,12 @@ input[type="submit"] {
   margin-left: 1vw;
 }
 .bottom-container {
-  display: flex;
+  display: grid;
   text-align: center;
   background-color: #666;
   border-radius: 0px 0px 4px 4px;
 }
 input[type="checkbox"] {
-  flex-shrink: 3;
   margin-right: 4.8rem;
 }
 input:hover,
@@ -119,20 +124,16 @@ input[type="submit"]:hover {
   padding-bottom: 0.5vh;
   margin-right: 0.5vw;
 }
-#rmbr {
-  display: flex;
-}
 .btnBottom {
   width: 50%;
   border: none;
   border-radius: 4px;
   opacity: 0.85;
-  display: flex;
+  display: grid;
   font-size: 5px;
   line-height: 2vh;
   text-decoration: none;
   margin: 1vh;
   margin-left: 15vw;
   font-size: 1rem;
-  justify-content: flex-end;
 }
