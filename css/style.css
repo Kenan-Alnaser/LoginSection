@@ -9,8 +9,8 @@
   background-color: #f2f2f2;
   padding: 2.8vh 0 4.2vh 0;
   border: 2px red dashed;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(1, 2fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   grid-template-areas: "social-buttons user-form";
 }
 div {
